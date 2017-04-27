@@ -1,0 +1,44 @@
+html, body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.wrapper {
+    height: 100vh;
+    position: relative;
+}
+
+.textarea {
+    width: 48%;
+    position: absolute;
+    left: 15px;
+    top: 35px;
+    bottom: 50px;
+}
+
+.textarea ~ .textarea {
+    left: auto;
+    right: 15px;
+}
+
+.headers {
+    font-size: 0;
+    padding: 10px 15px 0;
+    // white-space: nowrap;
+}
+
+h4 {
+    font-size: 18px;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h4 ~ h4 {
+    padding-left: 7px;
+}
